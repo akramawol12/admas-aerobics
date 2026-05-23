@@ -1,0 +1,6 @@
+{
+  "name": "Admas Taebo & Aerobics",
+  "description": "Modern and premium website for Admas Taebo and Aerobics in Addis Ababa, featuring class schedules, branch information, workout plan builders, and interactive health tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
