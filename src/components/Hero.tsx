@@ -1,5 +1,5 @@
 import { Flame, ArrowRight, ShieldCheck, Play, Award } from 'lucide-react';
-import { HERO_IMAGE_PATH } from '../data';
+import { HERO_IMAGE_PATH, TRAINER_IMAGE_PATH } from '../data';
 
 interface HeroProps {
   scrollToSection: (id: string) => void;
@@ -110,7 +110,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
                 </div>
                 <div className="flex -space-x-2">
                   <span className="h-8 w-8 rounded-none border-2 border-zinc-900 overflow-hidden bg-zinc-800">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=40&q=80" alt="Avatar A" referrerPolicy="no-referrer" className="h-full w-full object-cover" />
+                    <img src={TRAINER_IMAGE_PATH} alt="Avatar A" referrerPolicy="no-referrer" className="h-full w-full object-cover" />
                   </span>
                   <span className="h-8 w-8 rounded-none border-2 border-zinc-900 overflow-hidden bg-zinc-800">
                     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=40&q=80" alt="Avatar B" referrerPolicy="no-referrer" className="h-full w-full object-cover" />

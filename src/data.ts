@@ -241,7 +241,7 @@ export const TESTIMONIALS: Testimonial[] = [
     quote: "The Megenagna Aerobics studio is a family for me. The community is incredibly warm, the Amharic and international beat remixes keep you sweating, and you leave every session floating on pure adrenaline.",
     transformation: 'Improved Cardiovascular Health & Peak Muscle Tone',
     branch: 'Piassa Hub',
-    avatar: '/src/assets/images/ethiopian_lady_avatar_1779547439427.png'
+    avatar: '/assets/images/ethiopian_lady_avatar_1779547439427.png'
   },
   {
     id: 'test-3',
@@ -254,5 +254,5 @@ export const TESTIMONIALS: Testimonial[] = [
   }
 ];
 
-export const HERO_IMAGE_PATH = '/src/assets/images/taebo_hero_banner_1779536118363.png';
-export const TRAINER_IMAGE_PATH = '/src/assets/images/trainer_thumbnail_1779536141685.png';
+export const HERO_IMAGE_PATH = '/assets/images/taebo_hero_banner_1779536118363.png';
+export const TRAINER_IMAGE_PATH = '/assets/images/trainer_thumbnail_1779536141685.png';
